@@ -1,0 +1,25 @@
+body {
+  background: rgb(22, 26, 36);
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+header {
+  background: rgb(39, 48, 70);
+  padding: 30px;
+  font-size: 24px;
+}
+
+main img,
+main video {
+  width: 600px;
+  height: 338px;
+}
