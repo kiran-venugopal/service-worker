@@ -37,10 +37,10 @@ self.addEventListener("fetch", function (e) {
       )
     );
   }
+  //d
   e.respondWith(
     caches.match(e.request).then(async function (response) {
       if (!response) {
-        await addResourcesToCache([e.request.url]);
         return fetch(e.request);
       }
       return response;

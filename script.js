@@ -4,6 +4,8 @@ async function registerSW() {
       scope: "/",
     });
 
+    console.log({ registeration });
+
     if (registration.installing) {
       console.log("Service worker installing");
     } else if (registration.waiting) {
